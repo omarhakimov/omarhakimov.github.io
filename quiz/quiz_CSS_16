@@ -7,21 +7,22 @@
         #sq1{
             width: 100px;
             height: 100px;
+            position: relative;
             transition: width 5s;
             background-color: pink;
         }
         #sq2{
-            top: 100px;
+            top: 50px;
             width: 100px;
             height: 100px;
-            transition: width 5s;
-            transition: height 5s;
+            position: relative;
+            transition: width 5s, height 5s;
             background-color: pink;
         }
-        sq1:hover{
+        #sq1:hover{
             width: 600px;
         }
-        sq2:hover{
+        #sq2:hover{
             width: 250px;
             height: 250px;
         }
