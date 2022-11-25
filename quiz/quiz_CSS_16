@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<title>Omar's animated CSS</title>
+<head>
+    <style>
+        
+        #sq1{
+            width: 100px;
+            height: 100px;
+            transition: width 5s;
+            background-color: pink;
+        }
+        #sq2{
+            top: 100px;
+            width: 100px;
+            height: 100px;
+            transition: width 5s;
+            transition: height 5s;
+            background-color: pink;
+        }
+        sq1:hover{
+            width: 600px;
+        }
+        sq2:hover{
+            width: 250px;
+            height: 250px;
+        }
+        
+    </style>
+</head>
+<body>
+<p1>* Mouse hover 1: the square becomes longer.<br></p1>
+<p2>* Mouse hover 2: the square becomes larger.</p2>
+
+<div id="sq1">1</div>
+<div id="sq2">2</div>
+</body>
+</html>
